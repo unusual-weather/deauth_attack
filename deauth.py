@@ -39,7 +39,7 @@ def chkfil():
     return
 
 if __name__=="__main__":
-    if len(sys.argv)<=2 or len(sys.argv)>=7:
+    if len(sys.argv)<=2 or len(sys.argv)>=6:
         exit(0)
     chk = 0
     for i in sys.argv:
